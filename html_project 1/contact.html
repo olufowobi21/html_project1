@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="./pictures/logo.png"  width="120" height="120" class="logo">
+            <ul>
+             <li> <a href="./index.html">HOME</a></li>  
+            <li><a href="./about.html">ABOUT</a></li>
+            <li><a href="./contact.html">CONTACT</a></li>
+            <li><a href="./resume.html">RESUME</a></li>
+            <li><a href="./work.html">WORK</a></li>
+            </ul>
+        </nav>
+       <form action="submit_contact_form.php" method="post">
+        <br>
+        <div>
+            <p><a href="https://www.linkedin.com/feed/">click here</a> to view my linkedin</p><br>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required><br><br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <input type="submit" value="Submit">
+            
+        </div>
+       </form>
+
+
+
+    
+</body>
+</html>
